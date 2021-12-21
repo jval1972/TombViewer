@@ -1386,7 +1386,7 @@ procedure TDXViewerForm.ApplicationEvents1Activate(Sender: TObject);
 begin
   if Scene = nil then
     Exit;
-    
+
   if DXDraw.Visible then
   try
     DXDraw.Finalize;
